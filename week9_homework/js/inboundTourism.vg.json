@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 700,
+  "height": 500,
+  "title": "Inbound tourism for each country (2020)",
+  "projection": { "type": "equalEarth" },
+  "layer": [
+    {
+      "data": {
+        "url": "js/ne_110m.json",
+        "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
+      },
+      "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" }
+    },
+    {
+      "data": {
+        "url": "data/inbound_with_coords.csv"
+      },
+      "mark": "circle",
+      "encoding": {
+        "longitude": { "field": "Longitude", "type": "quantitative" },
+        "latitude": { "field": "Latitude", "type": "quantitative" },
+        "size": {
+          "field": "Total arrivals(in thousands) 2020",
+          "type": "quantitative",
+          "title": "Total arrivals(in thousands)",
+          "scale": { "type": "linear", "range": [0, 2500], "zero": true }
+        },
+        "color": {
+          "scale": { "scheme": "reds" }
+        },
+        "tooltip": [
+          {
+            "field": "Countries",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "Total arrivals(in thousands) 2020",
+            "type": "quantitative",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ]
+}
