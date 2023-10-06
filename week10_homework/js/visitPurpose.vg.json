@@ -12,7 +12,7 @@
 
   "params": [
     {
-      "name": "selectedCountry",
+      "name": "Select Country",
       "value": "Albania",
       "bind": {
         "input": "select",
@@ -246,7 +246,7 @@
   ],
   "transform": [
     {
-      "filter": { "field": "Country", "equal": { "expr": "selectedCountry" } }
+      "filter": { "field": "Country", "equal": { "expr": "Select Country" } }
     },
     {
       "fold": ["Business and Professional", "Personal"],
@@ -282,7 +282,7 @@
         "y": {
           "field": "values",
           "type": "quantitative",
-          "title": "Number of Visits",
+          "title": "Visits",
           "stack": "normalize"
         },
         "color": {
