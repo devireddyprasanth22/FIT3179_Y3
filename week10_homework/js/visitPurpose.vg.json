@@ -255,7 +255,7 @@
     { "filter": { "field": "values", "valid": true } },
     {
       "calculate": "datum.values === 0 ? 'No data to show' : format(datum.values, ',')",
-      "as": "textValue"
+      "as": "No Value"
     }
   ],
   "layer": [
