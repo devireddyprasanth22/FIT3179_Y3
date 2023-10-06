@@ -12,7 +12,7 @@
 
   "params": [
     {
-      "name": "Select Country",
+      "name": "SelectCountry",
       "value": "Albania",
       "bind": {
         "input": "select",
@@ -246,7 +246,7 @@
   ],
   "transform": [
     {
-      "filter": { "field": "Country", "equal": { "expr": "Select Country" } }
+      "filter": { "field": "Country", "equal": { "expr": "SelectCountry" } }
     },
     {
       "fold": ["Business and Professional", "Personal"],
