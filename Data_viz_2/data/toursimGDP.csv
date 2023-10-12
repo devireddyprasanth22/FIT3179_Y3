@@ -1,0 +1,933 @@
+Country,Years,Total
+Algeria,2008,0.8
+Algeria,2009,1.1
+Algeria,2010,1
+Algeria,2011,0.9
+Algeria,2012,0.9
+Algeria,2013,1
+Algeria,2014,1.1
+Algeria,2015,1.3
+Algeria,2016,1.4
+Algeria,2017,1.6
+Algeria,2018,1.7
+Algeria,2019,1.8
+Algeria,2020,1
+Argentina,2016,1.91767363
+Argentina,2017,1.986257922
+Argentina,2018,1.839786696
+Argentina,2019,1.89651182
+Aruba,2013,19.9
+Aruba,2014,21.1
+Aruba,2015,21.6
+Aruba,2016,21.2
+Aruba,2017,21.2
+Australia,2008,2.903126316
+Australia,2009,2.82243253
+Australia,2010,2.692323691
+Australia,2011,2.72321381
+Australia,2012,2.834172254
+Australia,2013,2.853001726
+Australia,2014,2.952741475
+Australia,2015,3.084574833
+Australia,2016,3.062835024
+Australia,2017,3.103490382
+Australia,2018,3.096198371
+Australia,2019,2.410189389
+Australia,2020,1.33626928
+Australia,2021,1.580346211
+Austria,2008,5.195653623
+Austria,2009,5.120960957
+Austria,2010,5.439173241
+Austria,2011,5.43437113
+Austria,2012,5.404633816
+Austria,2013,5.387035692
+Austria,2014,5.392398661
+Austria,2015,5.340893899
+Austria,2016,5.336438302
+Austria,2017,5.379477953
+Austria,2018,5.450972046
+Austria,2019,5.587412351
+Austria,2020,3.529468585
+Austria,2021,3.029668842
+Azerbaijan,2016,3.7
+Bahamas,2012,15.2
+Bahrain,2017,7.325093964
+Bahrain,2018,6.129360948
+Bahrain,2019,6.554988665
+Bahrain,2020,1.396305415
+Belarus,2014,1.784615324
+Belarus,2016,2.23040685
+Belarus,2018,2.497555198
+Belarus,2020,1.420369895
+Belgium,2016,2.181686158
+Belgium,2019,1.855004474
+Bermuda,2008,4.9
+Bermuda,2009,4.3
+Bermuda,2010,5.2
+Bermuda,2011,5.7
+Bermuda,2012,5.2
+Bermuda,2013,5
+Bermuda,2014,4.6
+Bermuda,2015,4.2
+Bermuda,2016,4.7
+Bermuda,2017,4.8
+Bermuda,2018,5.3
+Bermuda,2019,5.1
+Bermuda,2020,1.8
+Bermuda,2021,2.2
+Bhutan,2019,9.521374883
+Botswana,2009,3.7
+Botswana,2016,4.9
+Brunei Darussalam,2010,0.81
+Brunei Darussalam,2011,0.65
+Brunei Darussalam,2012,0.62
+Brunei Darussalam,2013,0.66
+Brunei Darussalam,2014,0.65
+Brunei Darussalam,2015,0.78
+Brunei Darussalam,2016,0.83
+Canada,2008,1.910684257
+Canada,2009,1.918498038
+Canada,2010,1.919760059
+Canada,2011,1.906874228
+Canada,2012,1.922554113
+Canada,2013,1.888177426
+Canada,2014,1.885742861
+Canada,2015,2.022873589
+Canada,2016,2.082282887
+Canada,2017,2.078699133
+Canada,2018,2.090210183
+Canada,2019,2.090092946
+Canada,2020,1
+Canada,2021,1
+Chile,2008,3.249276166
+Chile,2009,3.319000977
+Chile,2010,3.246202605
+Chile,2011,3.156639078
+Chile,2012,3.4547132
+Chile,2013,3.136377107
+Chile,2014,3.104830778
+Chile,2015,3.398148391
+Chile,2016,3.642290623
+Chile,2017,3.540349532
+Chile,2018,3.295953289
+Chile,2019,3.313924545
+"China, Hong Kong Special Administrative Region",2008,2.756187482
+"China, Hong Kong Special Administrative Region",2009,3.224146549
+"China, Hong Kong Special Administrative Region",2010,4.297040949
+"China, Hong Kong Special Administrative Region",2011,4.533933872
+"China, Hong Kong Special Administrative Region",2012,4.698589075
+"China, Hong Kong Special Administrative Region",2013,5.046375194
+"China, Hong Kong Special Administrative Region",2014,5.099562382
+"China, Hong Kong Special Administrative Region",2015,5.004000267
+"China, Hong Kong Special Administrative Region",2016,4.650110113
+"China, Hong Kong Special Administrative Region",2017,4.478268574
+"China, Hong Kong Special Administrative Region",2018,4.462326262
+"China, Hong Kong Special Administrative Region",2019,3.598704169
+"China, Hong Kong Special Administrative Region",2020,0.358142748
+"China, Macao Special Administrative Region",2010,54.05065378
+"China, Macao Special Administrative Region",2011,57.88294141
+"China, Macao Special Administrative Region",2012,57.78315482
+"China, Macao Special Administrative Region",2013,58.58459149
+"China, Macao Special Administrative Region",2014,54.96810299
+"China, Macao Special Administrative Region",2015,46.53082004
+"China, Macao Special Administrative Region",2016,45.54184181
+"China, Macao Special Administrative Region",2017,48.33944404
+"China, Macao Special Administrative Region",2018,50.51293697
+"China, Macao Special Administrative Region",2019,50.67567318
+"China, Macao Special Administrative Region",2020,21.07629636
+Colombia,2008,2.571074773
+Colombia,2009,2.483844867
+Colombia,2010,2.413778492
+Colombia,2011,2.213653979
+Colombia,2012,2.130094763
+Colombia,2013,2.088212155
+Colombia,2014,2.061598959
+Colombia,2015,1.903847066
+Colombia,2016,2.059871401
+Colombia,2017,2.070050977
+Colombia,2018,2.557529891
+Colombia,2019,2.638148461
+Colombia,2020,1.525221615
+Colombia,2021,1.565898411
+Costa Rica,2012,4.41075557
+Costa Rica,2013,4.687059518
+Costa Rica,2014,4.617561971
+Costa Rica,2015,4.709900252
+Costa Rica,2016,4.993956328
+Costa Rica,2017,4.808831851
+Costa Rica,2018,4.654175711
+Costa Rica,2019,4.818085701
+Cote D'ivoire,2012,2.4
+Cote D'ivoire,2013,3.6
+Cote D'ivoire,2014,4.8
+Cote D'ivoire,2015,5.2
+Cote D'ivoire,2016,5.5
+Cote D'ivoire,2017,5.9
+Cote D'ivoire,2018,6.3
+Cote D'ivoire,2019,7.3
+Cote D'ivoire,2020,1.5
+Croatia,2011,10.3
+Croatia,2016,11.39607436
+Croatia,2019,11.82340969
+Czech Republic (Czechia),2008,2.558851495
+Czech Republic (Czechia),2009,2.637445529
+Czech Republic (Czechia),2010,2.510795424
+Czech Republic (Czechia),2011,2.517637913
+Czech Republic (Czechia),2012,2.724420933
+Czech Republic (Czechia),2013,2.84666124
+Czech Republic (Czechia),2014,2.712474842
+Czech Republic (Czechia),2015,2.732684155
+Czech Republic (Czechia),2016,2.896174092
+Czech Republic (Czechia),2017,2.907997482
+Czech Republic (Czechia),2018,2.882152337
+Czech Republic (Czechia),2019,2.876409215
+Czech Republic (Czechia),2020,1.480454245
+Denmark,2008,1.682808116
+Denmark,2010,1.974733262
+Denmark,2011,1.452556162
+Denmark,2012,1.473027339
+Denmark,2013,1.685458994
+Denmark,2014,1.885712471
+Denmark,2015,1.873776488
+Denmark,2016,1.930690967
+Denmark,2017,2.338696335
+Denmark,2018,2.258128455
+Denmark,2019,2.484682918
+Denmark,2020,1.554726436
+Ecuador,2008,1.82
+Ecuador,2009,1.66
+Ecuador,2010,1.72
+Ecuador,2011,1.86
+Ecuador,2012,1.91
+Ecuador,2013,1.89
+Ecuador,2014,1.96
+Ecuador,2015,1.9
+Ecuador,2016,1.87
+Ecuador,2017,2.08
+Ecuador,2018,1.92
+Ecuador,2019,2.27
+Ecuador,2020,1.05
+Ecuador,2021,1.22
+Egypt,2009,5.6
+Egypt,2010,6.3
+Egypt,2012,4.8
+Egypt,2013,3.9
+Egypt,2014,4.3
+El Salvador,2014,2.95787116
+El Salvador,2015,3.046126991
+El Salvador,2016,3.23593012
+El Salvador,2017,3.498480716
+El Salvador,2018,3.516774024
+Estonia,2008,4.209034217
+Estonia,2009,4.685796402
+Estonia,2010,4.548031446
+Estonia,2011,4.396226813
+Estonia,2012,4.341149773
+Estonia,2013,4.780076807
+Estonia,2014,5.46357568
+Estonia,2015,5.482179208
+Estonia,2016,5.458396714
+Estonia,2017,5.4
+Eswatini,2008,1.364867305
+Eswatini,2009,1.549959383
+Eswatini,2010,1.454379839
+Eswatini,2011,1.195624523
+Eswatini,2012,1.072459441
+Eswatini,2013,0.955170083
+Eswatini,2014,0.943730339
+Eswatini,2015,1.094784808
+Eswatini,2016,0.906791135
+Eswatini,2017,1.254068054
+Eswatini,2018,1.183460692
+Eswatini,2019,1.183961192
+Eswatini,2020,0.734890529
+Eswatini,2021,0.690215764
+Fiji,2008,13
+Fiji,2009,10.2
+Fiji,2010,11.3
+Fiji,2011,11.5
+Fiji,2012,11.5
+Fiji,2013,12.1
+Fiji,2014,13.3
+Fiji,2015,13.7
+Fiji,2016,12.6
+Fiji,2017,13.5
+Fiji,2018,12.6
+Fiji,2019,12.6
+Finland,2011,2.430893503
+Finland,2012,2.513517716
+Finland,2013,2.46270989
+Finland,2014,2.44436971
+Finland,2015,2.451820656
+Finland,2016,2.459523784
+Finland,2017,2.671147194
+Finland,2018,2.699265824
+Finland,2019,2.742118339
+Finland,2020,1.7
+France,2019,4.029746859
+France,2020,3.188625592
+French Polynesia,2018,7.3
+French Polynesia,2019,7.3
+Germany,2010,4.20699454
+Germany,2015,4.058237654
+Germany,2016,3.995793715
+Germany,2017,3.986273042
+Germany,2018,3.984067038
+Germany,2019,3.985793377
+Greece,2008,5.517090704
+Greece,2009,4.739172531
+Greece,2010,5.123429269
+Greece,2011,4.91114613
+Greece,2012,5.071818794
+Greece,2013,5.98076015
+Greece,2014,6.385845338
+Greece,2015,6.545420634
+Greece,2016,6.141134318
+Greece,2017,6.542500314
+Greece,2018,6.932101764
+Greece,2019,7.336792435
+Greece,2020,4.433682539
+Greece,2021,6.030586884
+Guam,2010,12
+Guam,2015,11.2
+Guam,2016,12.1
+Guam,2019,22
+Guam,2020,11
+Guinea,2011,1.679293539
+Guinea,2012,1.642443847
+Guinea,2013,1.429041096
+Guinea,2014,1.242682334
+Guinea,2015,1.068767558
+Guinea,2016,1.004757444
+Guinea,2017,0.923600421
+Guyana,2013,3
+Guyana,2014,3.2
+Guyana,2015,3.3
+Guyana,2016,2.6
+Guyana,2017,2.6
+Guyana,2019,1.4
+Guyana,2020,0.5
+Honduras,2008,6
+Honduras,2009,6.2
+Honduras,2010,6.1
+Honduras,2011,6.1
+Honduras,2012,6.4
+Honduras,2013,6.5
+Honduras,2014,6.4
+Honduras,2015,6.4
+Honduras,2016,6.4
+Honduras,2017,6
+Hungary,2008,5.366713138
+Hungary,2009,5.646924235
+Hungary,2010,5.41250451
+Hungary,2011,5.466715822
+Hungary,2012,5.458765374
+Hungary,2013,5.628771671
+Hungary,2014,5.820835984
+Hungary,2015,6.076771776
+Hungary,2016,6.299927015
+Hungary,2017,6.485865105
+Hungary,2018,6.523986635
+Hungary,2019,6.38907947
+Hungary,2020,5.136881641
+Iceland,2009,3.511173487
+Iceland,2010,3.426771739
+Iceland,2011,3.682633468
+Iceland,2012,4.166658199
+Iceland,2013,4.678648834
+Iceland,2014,5.479635417
+Iceland,2015,6.448996807
+Iceland,2016,8.198395928
+Iceland,2017,7.983699507
+Iceland,2018,8.089224328
+Iceland,2019,8.012314474
+Iceland,2020,3.897699481
+India,2009,3.682130954
+India,2010,3.7
+India,2011,3.047542192
+India,2012,3.104956604
+India,2013,3.064954175
+India,2014,3.137077245
+India,2015,2.647051069
+India,2016,2.621342902
+India,2017,2.613935721
+India,2018,2.605184831
+India,2019,2.696512666
+India,2020,0.553511327
+Indonesia,2008,4.7
+Indonesia,2009,4.17
+Indonesia,2010,4.06
+Indonesia,2011,4
+Indonesia,2012,3.96
+Indonesia,2013,4.02
+Indonesia,2014,4.13
+Indonesia,2015,4.31
+Indonesia,2016,4.650542389
+Indonesia,2017,4.67496975
+Indonesia,2018,4.912186839
+Indonesia,2019,4.966333541
+Indonesia,2020,2.241401005
+Ireland,2019,4.764682947
+Israel,2008,2.683804514
+Israel,2009,2.528944967
+Israel,2010,2.760079119
+Israel,2011,2.696887043
+Israel,2012,2.740420313
+Israel,2013,2.618321451
+Israel,2014,2.528425798
+Israel,2015,2.5923771
+Israel,2016,2.523301435
+Israel,2017,2.553458523
+Israel,2018,2.640840067
+Israel,2019,2.628423751
+Israel,2020,0.752297964
+Israel,2021,1.065036976
+Italy,2010,5.148579446
+Italy,2015,5.410259431
+Italy,2017,5.498583203
+Italy,2019,5.71280359
+Jamaica,2008,7.059028835
+Jamaica,2009,7.2
+Jamaica,2010,6.9
+Jamaica,2011,6.5
+Jamaica,2012,6.4
+Jamaica,2013,6.9
+Jamaica,2014,7.5
+Jamaica,2015,7.8
+Jamaica,2016,8.4
+Jamaica,2017,9
+Jamaica,2018,9.2
+Jamaica,2019,9.8
+Japan,2008,1.87364905
+Japan,2009,1.831659318
+Japan,2010,1.70544572
+Japan,2011,1.678079828
+Japan,2012,1.724436393
+Japan,2013,1.776157207
+Japan,2014,1.663706186
+Japan,2015,1.820661325
+Japan,2016,1.944427136
+Japan,2017,1.970045726
+Japan,2018,1.945345616
+Japan,2019,1.985772903
+Jordan,2008,6.7
+Jordan,2010,7
+Jordan,2012,6.5
+Jordan,2016,6
+Kazakhstan,2008,1.506683513
+Kazakhstan,2009,1.415265746
+Kazakhstan,2010,1.256719228
+Kazakhstan,2011,1.414612033
+Kazakhstan,2012,1.455217065
+Kazakhstan,2013,1.022622503
+Kazakhstan,2014,0.918790583
+Kazakhstan,2015,1.047732817
+Kazakhstan,2016,1.260259597
+Kazakhstan,2017,1.34434276
+Kazakhstan,2018,1.358551675
+Kazakhstan,2019,1.270019445
+Kazakhstan,2020,0.614193462
+Kiribati,2008,0.57
+Kiribati,2009,0.61
+Kiribati,2010,0.52
+Kiribati,2011,0.58
+Kiribati,2012,0.51
+Kiribati,2013,0.53
+Kiribati,2014,0.5
+Kiribati,2015,0.51
+Kiribati,2016,0.6
+Kiribati,2017,0.76
+Kiribati,2018,0.69
+Kiribati,2019,0.72
+Latvia,2008,4.2
+Latvia,2009,3.1
+Latvia,2010,3.1
+Latvia,2011,3.4
+Latvia,2012,4.4
+Latvia,2013,4.2
+Latvia,2014,4.3
+Latvia,2015,4.2
+Latvia,2016,4.5
+Latvia,2017,4.6
+Latvia,2018,4.9
+Latvia,2019,4.8
+Lebanon,2008,2.2
+Lebanon,2009,2.9
+Lebanon,2010,2.9
+Lebanon,2011,2.8
+Lebanon,2012,2.6
+Lebanon,2013,2.6
+Lebanon,2014,2.8
+Lebanon,2015,3
+Lebanon,2016,3
+Lebanon,2017,3.1
+Lebanon,2018,3
+Lebanon,2019,3
+Lebanon,2020,2
+Lithuania,2009,2.801917058
+Lithuania,2010,2.732644034
+Lithuania,2011,2.760610094
+Lithuania,2012,2.946075094
+Lithuania,2013,3.004694931
+Lithuania,2014,3.055212911
+Lithuania,2015,2.989817729
+Lithuania,2016,3.025400535
+Lithuania,2017,3.014070163
+Lithuania,2018,2.948368418
+Lithuania,2019,2.941850917
+Lithuania,2020,1.668394317
+Luxembourg,2014,1.303494587
+Luxembourg,2015,1.218629329
+Luxembourg,2016,1.30834955
+Luxembourg,2017,1.317602157
+Luxembourg,2018,1.306184771
+Luxembourg,2019,1.209794818
+Luxembourg,2020,0.954806057
+Malawi,2013,4.5
+Malawi,2014,3.5
+Malawi,2015,3.4
+Malawi,2016,3.4
+Malawi,2017,3.5
+Malawi,2018,3.4
+Malawi,2019,2.7
+Malawi,2020,1.6
+Malaysia,2008,4.860893384
+Malaysia,2009,5.416317719
+Malaysia,2010,5.569318743
+Malaysia,2011,5.595729977
+Malaysia,2012,5.648907621
+Malaysia,2013,5.961797694
+Malaysia,2014,6.279526479
+Malaysia,2015,6.368788857
+Malaysia,2016,6.569060662
+Malaysia,2017,6.404902158
+Malaysia,2018,6.532534821
+Malaysia,2019,6.760742014
+Malaysia,2020,2.005824681
+Malaysia,2021,0.849556184
+Malta,2010,5.9
+Marshall Islands,2008,2.6
+Marshall Islands,2009,2.5
+Marshall Islands,2010,2.3
+Marshall Islands,2011,2.2
+Marshall Islands,2012,2.1
+Marshall Islands,2013,1.9
+Marshall Islands,2014,2.1
+Marshall Islands,2015,2.2
+Marshall Islands,2016,2.3
+Marshall Islands,2017,2.3
+Marshall Islands,2018,2.3
+Marshall Islands,2019,2.5
+Marshall Islands,2020,2
+Marshall Islands,2021,1.8
+Martinique,2008,2.246277101
+Martinique,2009,2.217466841
+Martinique,2010,2.472514152
+Martinique,2011,2.5721859
+Martinique,2012,2.464635658
+Martinique,2013,2.357413362
+Martinique,2014,2.434571944
+Martinique,2015,2.400632325
+Martinique,2016,2.489850713
+Mauritius,2010,9.6
+Mauritius,2011,10
+Mauritius,2012,9.9
+Mauritius,2013,9
+Mauritius,2014,9.1
+Mauritius,2015,9.2
+Mauritius,2016,9.2
+Mauritius,2017,9.1
+Mauritius,2018,9.1
+Mexico,2008,8.320104702
+Mexico,2009,8.513082099
+Mexico,2010,8.355485739
+Mexico,2011,8.189701989
+Mexico,2012,8.200251111
+Mexico,2013,8.51520645
+Mexico,2014,8.502709904
+Mexico,2015,8.680764993
+Mexico,2016,8.553847827
+Mexico,2017,8.494251021
+Mexico,2018,8.409604307
+Mexico,2019,8.499316034
+Mexico,2020,6.740561912
+"Micronesia, Federated States of",2008,1.900703175
+"Micronesia, Federated States of",2009,1.677767473
+"Micronesia, Federated States of",2010,1.702531124
+"Micronesia, Federated States of",2011,1.62598378
+"Micronesia, Federated States of",2012,1.656896271
+"Micronesia, Federated States of",2013,1.661031276
+"Micronesia, Federated States of",2014,1.635301752
+"Micronesia, Federated States of",2015,1.695405864
+"Micronesia, Federated States of",2016,1.71714274
+"Micronesia, Federated States of",2017,1.780083816
+"Micronesia, Federated States of",2018,1.788274653
+"Moldova, Republic of",2014,0.475932786
+"Moldova, Republic of",2015,0.502653122
+"Moldova, Republic of",2016,0.448845983
+"Moldova, Republic of",2017,0.500518605
+"Moldova, Republic of",2018,0.561540381
+"Moldova, Republic of",2019,0.675536753
+"Moldova, Republic of",2020,0.179603715
+"Moldova, Republic of",2021,0.454884
+Mongolia,2015,0.177286904
+Mongolia,2016,0.20944182
+Mongolia,2017,0.201828289
+Mongolia,2018,0.15283414
+Mongolia,2019,0.158625228
+Mongolia,2020,0.042399976
+Montenegro,2009,10
+Montserrat,2008,2.34
+Montserrat,2009,1.98
+Montserrat,2010,2.13
+Montserrat,2011,1.8
+Montserrat,2012,2.04
+Montserrat,2013,2.01
+Montserrat,2014,2.2
+Montserrat,2015,2.27
+Montserrat,2016,1.75
+Montserrat,2017,2.3
+Montserrat,2018,2.24
+Montserrat,2019,1.76
+Montserrat,2020,0.87
+Montserrat,2021,0.5
+Morocco,2009,7.072847393
+Morocco,2010,7.31907475
+Morocco,2011,7.067468886
+Morocco,2012,6.892230425
+Morocco,2013,6.837032004
+Morocco,2014,6.69036154
+Morocco,2015,6.443645933
+Morocco,2016,6.598310945
+Morocco,2017,6.810059781
+Morocco,2018,6.933536126
+Morocco,2019,7.063460808
+Mozambique,2015,5.22
+Mozambique,2016,4.37
+Mozambique,2017,4.33
+Mozambique,2018,4.65
+Mozambique,2019,4.74
+Mozambique,2020,2.43
+Namibia,2009,2.7
+Namibia,2010,2.6
+Namibia,2011,2.9
+Namibia,2012,2.9
+Namibia,2013,3
+Namibia,2014,3
+Namibia,2015,3.3
+Namibia,2016,3
+Namibia,2017,2.9
+Namibia,2020,5.6
+Nepal,2010,1.568458883
+Nepal,2011,1.641094917
+Nepal,2012,1.784152647
+Nepal,2013,1.757378932
+Nepal,2014,1.894146233
+Nepal,2015,1.774261059
+Nepal,2016,1.824695006
+Nepal,2017,1.947809654
+Nepal,2018,1.960394683
+Nepal,2019,1.283898018
+Nepal,2020,1.363546639
+Nepal,2021,1.6
+Netherlands,2010,3.152295048
+Netherlands,2011,3.177387947
+Netherlands,2012,3.293998469
+Netherlands,2013,3.420797738
+Netherlands,2014,3.687910663
+Netherlands,2015,3.95290214
+Netherlands,2016,4.173282674
+Netherlands,2017,4.297076936
+Netherlands,2018,4.370286097
+Netherlands,2019,4.392104392
+Netherlands,2020,2.3
+Netherlands,2021,2.5
+New Zealand,2008,5.7
+New Zealand,2009,5.2
+New Zealand,2010,5.2
+New Zealand,2011,5.1
+New Zealand,2012,5.1
+New Zealand,2013,5.1
+New Zealand,2014,5
+New Zealand,2015,5.6
+New Zealand,2016,6.2
+New Zealand,2017,5.8
+New Zealand,2018,5.8
+New Zealand,2019,5.6
+New Zealand,2020,5.5
+New Zealand,2021,2.9
+Nigeria,2010,4.38
+Nigeria,2011,4.38
+Nigeria,2012,4.5
+Nigeria,2013,5.01
+Nigeria,2014,5.24
+Nigeria,2015,5.56
+Nigeria,2016,5.7
+Nigeria,2017,5.46
+Nigeria,2018,5.44
+Nigeria,2019,5.58
+Nigeria,2020,4.29
+Norway,2008,3.014165219
+Norway,2009,3.32619444
+Norway,2010,3.234986662
+Norway,2011,3.370271527
+Norway,2012,3.325412872
+Norway,2013,3.338799124
+Norway,2014,3.320922538
+Norway,2015,3.546128014
+Norway,2016,3.802013332
+Norway,2017,3.679755488
+Norway,2018,4.2
+Norway,2019,3.647161037
+Oman,2008,2.346074556
+Oman,2009,2.648705326
+Oman,2010,2.415616135
+Oman,2011,2.115288076
+Oman,2012,2.160086193
+Oman,2013,2.250633654
+Oman,2014,2.267243425
+Oman,2015,2.702962681
+Oman,2016,2.74428641
+Oman,2017,2.656536311
+Oman,2018,2.662328155
+Oman,2019,2.895673448
+Oman,2020,2.576556857
+Oman,2021,2.436567436
+Panama,2008,8.3
+Panama,2009,9.1
+Panama,2010,8.9
+Panama,2011,9.2
+Panama,2012,9.3
+Panama,2013,9.1
+Paraguay,2008,0.4
+Paraguay,2009,0.9
+Paraguay,2010,0.8
+Paraguay,2011,0.7
+Paraguay,2012,0.7
+Paraguay,2013,0.7
+Paraguay,2014,0.7
+Paraguay,2015,1.3
+Paraguay,2016,1.3
+Paraguay,2017,1.5
+Paraguay,2018,1.1
+Paraguay,2019,1.2
+Paraguay,2020,0.2
+Peru,2011,3.6
+Peru,2012,3.6
+Peru,2013,3.7
+Peru,2014,3.8
+Peru,2015,3.9
+Peru,2016,3.9
+Peru,2017,3.9
+Peru,2018,3.9
+Peru,2019,3.9
+Philippines,2008,5.709174512
+Philippines,2009,5.869566207
+Philippines,2010,6.243979674
+Philippines,2011,6.84580333
+Philippines,2012,7.701845441
+Philippines,2013,8.085099957
+Philippines,2014,8.853119099
+Philippines,2015,9.896919911
+Philippines,2016,10.41089995
+Philippines,2017,11.74266898
+Philippines,2018,12.25807398
+Philippines,2019,12.85306463
+Philippines,2020,5.109281398
+Philippines,2021,5.158520286
+Poland,2008,2.169930716
+Poland,2009,1.588163481
+Poland,2010,1.589528657
+Poland,2011,1.782461727
+Poland,2012,2.101029787
+Poland,2013,1.298517541
+Poland,2015,1.174607687
+Portugal,2008,5.99
+Portugal,2009,5.54
+Portugal,2010,5.5
+Portugal,2014,6.4632
+Portugal,2015,6.6815
+Portugal,2016,7
+Portugal,2017,7.6899
+Portugal,2018,7.9852
+Portugal,2019,8.1
+Portugal,2020,4.8
+Portugal,2021,5.8
+Puerto Rico,2016,3.412701379
+Puerto Rico,2017,3.420834266
+Puerto Rico,2018,2.910180827
+Puerto Rico,2019,3.40829589
+Puerto Rico,2020,2.749802935
+Qatar,2013,1.824174269
+Qatar,2014,2.061321146
+Qatar,2015,3.10924527
+Qatar,2016,3.846711126
+Qatar,2017,3.452417294
+Qatar,2018,3.169005226
+Qatar,2019,3.267497693
+Qatar,2020,2.016126898
+R�union,2009,2.41
+R�union,2010,2.7
+R�union,2017,3.201515885
+R�union,2019,3.3
+Romania,2011,1.819732296
+Romania,2012,1.86179736
+Romania,2013,1.936428904
+Romania,2014,1.95677523
+Romania,2015,2.401542622
+Romania,2016,2.770081949
+Romania,2017,2.786935516
+Romania,2018,2.908980871
+Romania,2019,2.980679779
+Russian Federation,2011,3
+Russian Federation,2012,3
+Russian Federation,2013,3.2
+Russian Federation,2014,3.4
+Russian Federation,2015,3.3
+Russian Federation,2016,3.4
+Russian Federation,2017,3.9
+Russian Federation,2018,3.9
+Rwanda,2014,2.35
+Rwanda,2015,2.72
+Rwanda,2016,3.01
+Rwanda,2017,3.38
+Rwanda,2018,3.44
+Rwanda,2019,3.16
+Rwanda,2020,0.9
+Saudi Arabia,2019,3.78878475
+Saudi Arabia,2020,1.684304556
+Saudi Arabia,2021,2.13217181
+Sierra Leone,2017,3.5
+Sierra Leone,2018,4.1
+Sierra Leone,2019,3.7
+Sierra Leone,2020,5.6
+Singapore,2015,2.627611482
+Slovakia,2013,2.30000317
+Slovakia,2014,2.107955858
+Slovakia,2015,2.528535303
+Slovakia,2016,2.627932675
+Slovakia,2017,2.560311046
+Slovakia,2018,2.679189649
+Slovakia,2019,2.78368395
+Slovenia,2009,4.882248428
+Slovenia,2012,4.854322392
+Slovenia,2014,4.88984034
+Slovenia,2015,4.940713123
+Slovenia,2017,5.288912806
+Slovenia,2019,5.396535071
+Slovenia,2020,3.274806252
+South Africa,2008,3.038543086
+South Africa,2009,2.899256962
+South Africa,2010,2.92728512
+South Africa,2011,2.775651019
+South Africa,2012,2.873526226
+South Africa,2013,3.289303965
+South Africa,2014,3.364229292
+South Africa,2015,2.875841506
+South Africa,2016,2.935149582
+South Africa,2017,2.606558636
+South Africa,2018,2.728029506
+South Africa,2019,3.731484947
+Spain,2016,6.5
+Spain,2017,6.6
+Spain,2018,6.7
+Spain,2019,6.8
+Spain,2020,5.4
+State of Palestine,2009,2.181790074
+State of Palestine,2010,2.547689924
+State of Palestine,2011,1.927704919
+State of Palestine,2012,2.671944727
+State of Palestine,2013,2.068157301
+State of Palestine,2014,2.599845601
+State of Palestine,2015,1.725375025
+State of Palestine,2016,2.203499422
+State of Palestine,2017,2.557023189
+State of Palestine,2018,2.506219358
+State of Palestine,2019,2.926092159
+State of Palestine,2020,0.662264916
+Sweden,2008,2.652290388
+Sweden,2009,2.77614467
+Sweden,2010,2.545118
+Sweden,2011,2.611227935
+Sweden,2012,2.743029906
+Sweden,2013,2.671468078
+Sweden,2014,2.626907086
+Sweden,2015,2.649718022
+Sweden,2016,2.737451289
+Sweden,2017,2.60057656
+Sweden,2018,2.598289601
+Sweden,2019,2.439835391
+Sweden,2020,1.691361455
+Sweden,2021,1.930075472
+Switzerland,2008,2.879399318
+Switzerland,2009,2.848518815
+Switzerland,2010,2.842453312
+Switzerland,2011,2.825863478
+Switzerland,2012,2.827451825
+Switzerland,2013,2.792933624
+Switzerland,2014,2.764549537
+Switzerland,2015,2.78446334
+Switzerland,2016,2.775475544
+Switzerland,2017,2.836703549
+Switzerland,2018,2.820370075
+Switzerland,2019,2.856288597
+Switzerland,2020,2.152312299
+Thailand,2010,3.563394236
+Thailand,2011,4.198748982
+Thailand,2012,4.726829941
+Thailand,2013,5.336110904
+Thailand,2014,5.162232772
+Thailand,2015,6.19735585
+Thailand,2016,6.897541218
+Thailand,2017,7.418380147
+Thailand,2018,7.402493653
+Thailand,2019,7.364093325
+Thailand,2020,2.251679751
+Tunisia,2018,4.139818066
+Tunisia,2019,4.50877913
+Tunisia,2020,1.63495343
+Tunisia,2021,2.210321393
+Uganda,2016,3.7
+United Arab Emirates,2019,6.1
+United Arab Emirates,2020,3.9
+United Arab Emirates,2021,6.2
+United Kingdom of Great Britain and Northern Ireland,2008,3.416587489
+United Kingdom of Great Britain and Northern Ireland,2009,3.468462371
+United Kingdom of Great Britain and Northern Ireland,2010,3.383483232
+United Kingdom of Great Britain and Northern Ireland,2011,3.614436825
+United Kingdom of Great Britain and Northern Ireland,2012,3.722592172
+United Kingdom of Great Britain and Northern Ireland,2013,3.683596672
+United Kingdom of Great Britain and Northern Ireland,2014,3.609534184
+United Kingdom of Great Britain and Northern Ireland,2015,3.937450051
+United Kingdom of Great Britain and Northern Ireland,2016,3.446720408
+United Kingdom of Great Britain and Northern Ireland,2017,3.423722316
+United Kingdom of Great Britain and Northern Ireland,2018,3.238154265
+United Kingdom of Great Britain and Northern Ireland,2019,3.649352812
+United Kingdom of Great Britain and Northern Ireland,2020,1.766004982
+United States of America,2008,2.809401555
+United States of America,2009,2.661819333
+United States of America,2010,2.704733544
+United States of America,2011,2.791019387
+United States of America,2012,2.786429067
+United States of America,2014,2.893642297
+Uruguay,2008,5.8
+Uruguay,2009,5.6
+Uruguay,2010,6.2
+Uruguay,2011,7.4
+Uruguay,2012,6.8
+Uruguay,2013,6.4
+Uruguay,2014,6.3
+Uruguay,2015,6.5
+Uruguay,2016,7.3
+Uruguay,2017,8.5
+Uruguay,2018,8.1
+Uruguay,2019,7
+Viet Nam,2013,6.06
+Viet Nam,2014,6.14
+Viet Nam,2015,6.33
+Viet Nam,2016,6.96
+Viet Nam,2017,7.9
+Viet Nam,2018,8.39
+Viet Nam,2019,9.2
+Saint Lucia,2008,30
+Republic of Korea,2019,2.5

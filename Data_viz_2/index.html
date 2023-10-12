@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbound tourism</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <!--Import MDL for css styling-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout">
+        <header class="mdl-layout__header mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">World Tourism</span>
+                <!-- Add spacer, to align navigation to the right -->
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="visualization-group">
+                    <h2>Tourism over the years</h2>
+                    <p>Tourism has witnessed a remarkable surge in recent decades, driven in part by the increased
+                        accessibility of international travel
+                        Before the onset of the COVID-19 pandemic, the number of international visits had more than
+                        doubled since the turn of the 21st century. This upswing in tourism reflects the growing global
+                        interest in exploring new cultures and destinations. Whether it's the allure of iconic
+                        landmarks, the discovery of local traditions, or the pursuit of unique experiences, tourism has
+                        become a dynamic force connecting people across borders.</p>
+                    <p>Two visuallisations can be seen below, one representing the <span class="in_high">Inbound
+                            tourism</span> and
+                        another
+                        representing the <span class="out_high">Outbound tourism</span>. These are important in showing
+                        the user the
+                        change in tourism
+                        over the past decade and highlight and travel trends.
+                        Values here are represented in thousands</p>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <div id="vis"></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <div id="vis2"></div>
+                        </div>
+                    </div>
+                    <h3>Other factors</h3>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <div id="vis1"></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <div id="vis3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visualization-group">
+                    <h2>Tourism GDP as a proportion of GDP</h2>
+                    <p>he visualization of Tourism direct GDP as a proportion of total GDP serves as a crucial metric
+                        for understanding the economic significance of the tourism industry within a given country. It
+                        offers a clear insight into the role that tourism plays in the overall economic landscape,
+                        indicating the extent to which a nation's GDP is dependent on the tourism sector.</p>
+                    <p>A high
+                        proportion suggests that tourism is a major driver of the economy, potentially leading to
+                        economic vulnerabilities during tourism downturns or disruptions. Conversely, a lower proportion
+                        may indicate a more diversified economy less reliant on tourism. </p>
+                    <div id="vis4"></div>
+                    <div id="vis5"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+    <script type="text/javascript">
+
+        var spec = "js/inboundTourism.vg.json";
+        vegaEmbed('#vis', spec).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var spec1 = "js/visitPurpose.vg.json";
+        vegaEmbed('#vis1', spec1).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var spec2 = "js/outboundTourism.vg.json";
+        vegaEmbed('#vis2', spec2).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var spec3 = "js/tourist_exp.vg.json";
+        vegaEmbed('#vis3', spec3).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var spec4 = "js/tourismGDP.vg.json";
+        vegaEmbed('#vis4', spec4).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+
+        var spec5 = "js/outVin.vg.json";
+        vegaEmbed('#vis5', spec5).then(function (result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
+
+</body>
+
+</html>

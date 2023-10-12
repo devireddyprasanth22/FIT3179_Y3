@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Set a background color for the body */
+body {
+  background-color: #f0f0f088;
+  font-family: Arial, sans-serif;
+  margin: 10; /* Remove default margins to avoid unexpected scrolling */
+}
+
+/* Style the header to center the title */
+.mdl-layout__header-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f4576; /* Header background color */
+  color: #fff; /* Header text color */
+  padding: 10px; /* Header padding */
+}
+
+/* Style the main content area */
+.mdl-layout__content {
+  display: flex;
+  flex-direction: row; /* Stack content horizontally */
+  align-items: center;
+  /* min-height: 100vh; Ensure that the content area takes up the entire viewport height */
+}
+
+/* Style the visualization container */
+.visualization-cont {
+  display: flex;
+  flex-wrap: wrap; /* Allow visualizations to wrap to the next line */
+  justify-content: center;
+  gap: 20px; /* Spacing between visualizations */
+  max-width: 100%; /* Ensure visualizations don't overflow the viewport */
+  margin-top: 80px; /* Add margin to create space between header and visualizations */
+}
+
+.mdl-cell {
+  flex: 1; /* Distribute available space evenly among the visualizations */
+  max-width: 100%; /* Ensure that visualizations fit within their parent divs */
+  padding: 20px;
+  background-color: #e6e6e6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#vis,
+#vis1,
+#vis2,
+#vis3 {
+  /* Distribute available space evenly among the visualizations */
+  max-width: 100%; /* Ensure vis4 doesn't overflow the viewport */
+}
+
+#vis4 {
+  max-width: 100%;
+  padding: 20px;
+}
+
+.in_high {
+  color: #a63603;
+  font-weight: bold;
+}
+
+.out_high {
+  color: #2f78b3;
+  font-weight: bold;
+}

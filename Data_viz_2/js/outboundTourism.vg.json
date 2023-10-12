@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 500,
+  "title": "Outbound tourism for each country (2010-2021)",
+  "data": {
+    "url": "js/ne_110m.json",
+    "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
+  },
+  "params": [
+    {
+      "name": "Year_above",
+      "value": 2010,
+      "bind": {
+        "input": "range",
+        "min": 2010,
+        "max": 2021,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+  "projection": { "type": "equalEarth" },
+  "layer": [
+    {
+      "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" }
+    },
+    {
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.NAME",
+          "as": "note"
+        }
+      ],
+      "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" },
+      "encoding": { "tooltip": { "field": "note" } }
+    },
+    {
+      "data": {
+        "url": "js/WorldMapWithGraticules.topojson",
+        "format": { "type": "topojson", "feature": "ne_110m_graticules_30" }
+      },
+      "mark": { "type": "geoshape", "fill": null, "stroke": "lightgray" }
+    },
+
+    {
+      "transform": [
+        {
+          "lookup": "properties.NAME",
+          "from": {
+            "data": {
+              "url": "./data/outbound_new.csv"
+            },
+            "key": "Country",
+            "fields": [
+              "Total departures(in thousands) 2010",
+              "Total departures(in thousands) 2011",
+              "Total departures(in thousands) 2012",
+              "Total departures(in thousands) 2013",
+              "Total departures(in thousands) 2014",
+              "Total departures(in thousands) 2015",
+              "Total departures(in thousands) 2016",
+              "Total departures(in thousands) 2017",
+              "Total departures(in thousands) 2018",
+              "Total departures(in thousands) 2019",
+              "Total departures(in thousands) 2020",
+              "Total departures(in thousands) 2021"
+            ]
+          }
+        },
+        {
+          "calculate": "Year_above === 2010 ? datum['Total departures(in thousands) 2010'] : Year_above === 2011 ? datum['Total departures(in thousands) 2011'] : Year_above === 2012 ? datum['Total departures(in thousands) 2012'] : Year_above === 2013 ? datum['Total departures(in thousands) 2013'] : Year_above === 2014 ? datum['Total departures(in thousands) 2014'] : Year_above === 2015 ? datum['Total departures(in thousands) 2015'] : Year_above === 2016 ? datum['Total departures(in thousands) 2016'] : Year_above === 2017 ? datum['Total departures(in thousands) 2017'] : Year_above === 2018 ? datum['Total departures(in thousands) 2018'] : Year_above === 2019 ? datum['Total departures(in thousands) 2019'] : Year_above === 2020 ? datum['Total departures(in thousands) 2020'] : datum['Total departures(in thousands) 2021']",
+          "as": "Total departures in thousands"
+        }
+      ],
+      "mark": { "type": "geoshape", "stroke": "white" },
+      "encoding": {
+        "color": {
+          "field": "Total departures in thousands",
+          "type": "quantitative",
+          "scale": {
+            "type": "threshold",
+            "domain": [5000, 10000, 15000, 20000, 25000],
+            "range": "diverging"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "properties.NAME",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "Total departures in thousands",
+            "type": "quantitative",
+            "title": "Total departures in thousands"
+          }
+        ]
+      }
+    }
+  ]
+}
