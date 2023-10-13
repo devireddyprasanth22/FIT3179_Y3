@@ -46,27 +46,39 @@
     {
       "transform": [
         {
-          "filter": { "field": "Years", "equal": { "expr": "Year_above" } }
-        },
-        {
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "data/tourismGDP.csv"
+              "url": "data/gdpT.csv"
             },
             "key": "Country",
-            "fields": ["Years", "Total"]
+            "fields": [
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021"
+            ]
           }
         },
         {
-          "calculate": "datum.Total",
-          "as": "gdpT"
+          "calculate": "Year_above === 2008 ? datum['2008'] : Year_above === 2009 ? datum['2009'] : Year_above === 2010 ? datum['2010'] : Year_above === 2011 ? datum['2011'] : Year_above === 2012 ? datum['2012'] : Year_above === 2013 ? datum['2013'] : Year_above === 2014 ? datum['2014'] : Year_above === 2015 ? datum['2015'] : Year_above === 2016 ? datum['2016'] : Year_above === 2017 ? datum['2017'] : Year_above === 2018 ? datum['2018'] : Year_above === 2019 ? datum['2019']: Year_above === 2020 ? datum['2020']: datum['2021']",
+          "as": "Total"
         }
       ],
       "mark": { "type": "geoshape", "stroke": "white" },
       "encoding": {
         "color": {
-          "field": "gdpT",
+          "field": "Total",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
@@ -81,7 +93,7 @@
             "title": "Country"
           },
           {
-            "field": "gdpT",
+            "field": "Total",
             "type": "quantitative",
             "title": "Tourism GPD %"
           }

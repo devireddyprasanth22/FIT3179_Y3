@@ -4,7 +4,7 @@
   "height": 500,
   "title": "Purpose of visit for each country (2010-2021)",
   "data": {
-    "url": "data/new_data.csv",
+    "url": "data/visitPurpose.csv",
     "format": {
       "type": "csv"
     }

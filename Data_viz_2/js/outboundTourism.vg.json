@@ -49,7 +49,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "./data/outbound_new.csv"
+              "url": "./data/outbound_tourists.csv"
             },
             "key": "Country",
             "fields": [

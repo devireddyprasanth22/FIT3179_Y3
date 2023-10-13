@@ -4,7 +4,7 @@
   "height": 500,
   "title": "Tourist employees by tourism industry (2010-2021)",
   "data": {
-    "url": "data/data1.csv",
+    "url": "data/tourism_employees.csv",
     "format": {
       "type": "csv"
     }
@@ -281,7 +281,7 @@
         "color": {
           "field": "key",
           "type": "nominal",
-          "title": "Expenditure type"
+          "title": "Tourism Industry"
         },
         "tooltip": [
           {

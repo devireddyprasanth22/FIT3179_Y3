@@ -3,13 +3,7 @@
   "width": 400,
   "height": 500,
   "title": "Outbound vs Inbound expenditure (2010-2021)",
-  "data": {
-    "url": "data/OutVin.csv",
-    "format": {
-      "type": "csv"
-    }
-  },
-
+  "data": { "url": "data/OutvsIn_exp.csv", "format": { "type": "csv" } },
   "params": [
     {
       "name": "selectedCountry",
@@ -248,52 +242,24 @@
     {
       "filter": { "field": "Country", "equal": { "expr": "selectedCountry" } }
     },
-    {
-      "fold": ["Inbound", "Outbound"],
-      "as": ["key", "values"]
-    },
-    { "filter": { "field": "values", "valid": true } },
-    {
-      "calculate": "datum.values === 0 ? 'No data to show' : format(datum.values, ',')",
-      "as": "textValue"
-    }
+    { "fold": ["Inbound", "Outbound"], "as": ["key", "values"] }
   ],
   "layer": [
     {
       "mark": { "type": "bar" },
       "encoding": {
-        "x": {
-          "field": "Year",
-          "type": "ordinal",
-          "title": "Year"
-        },
+        "x": { "field": "Year", "type": "ordinal", "title": "Year" },
         "y": {
           "field": "values",
           "type": "quantitative",
           "title": "expenditure"
         },
         "xOffset": { "field": "key" },
-        "color": {
-          "field": "key",
-          "type": "nominal",
-          "title": "Type"
-        },
+        "color": { "field": "key", "type": "nominal", "title": "Type" },
         "tooltip": [
-          {
-            "field": "key",
-            "type": "nominal",
-            "title": "Purpose of Visit"
-          },
-          {
-            "field": "values",
-            "type": "quantitative",
-            "title": "Number of visits in thousands"
-          },
-          {
-            "field": "Year",
-            "type": "ordinal",
-            "title": "Year"
-          }
+          { "field": "key", "type": "nominal", "title": "Type" },
+          { "field": "values", "type": "quantitative", "title": "expenditure" },
+          { "field": "Year", "type": "ordinal", "title": "Year" }
         ]
       }
     }
