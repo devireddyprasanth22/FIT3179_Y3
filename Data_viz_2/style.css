@@ -22,7 +22,8 @@ body {
   display: flex;
   flex-direction: row; /* Stack content horizontally */
   align-items: center;
-  /* min-height: 100vh; Ensure that the content area takes up the entire viewport height */
+  padding: 0 50px;
+  border: 1px solid #000;
 }
 
 /* Style the visualization container */
