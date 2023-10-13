@@ -36,9 +36,9 @@ body {
   margin-top: 80px; /* Add margin to create space between header and visualizations */
 }
 
-.mdl-cell {
+.visz {
   flex: 1; /* Distribute available space evenly among the visualizations */
-  max-width: 100%; /* Ensure that visualizations fit within their parent divs */
+  max-width: 50%; /* Ensure that visualizations fit within their parent divs */
   padding: 20px;
   background-color: #e6e6e6;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -65,4 +65,11 @@ body {
 .out_high {
   color: #2f78b3;
   font-weight: bold;
+}
+
+.text-content {
+  /* Add styles for the text content within the cell */
+  color: #333; /* Custom text color */
+  font-size: 18px; /* Custom font size */
+  /* Add any other custom styles for the text content */
 }
