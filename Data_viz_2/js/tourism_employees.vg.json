@@ -12,7 +12,7 @@
 
   "params": [
     {
-      "name": "selectedCountry",
+      "name": "country",
       "value": "Albania",
       "bind": {
         "input": "select",
@@ -127,7 +127,7 @@
   ],
   "transform": [
     {
-      "filter": { "field": "Country", "equal": { "expr": "selectedCountry" } }
+      "filter": { "field": "Country", "equal": { "expr": "country" } }
     },
     {
       "fold": [

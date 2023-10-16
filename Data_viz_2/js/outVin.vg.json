@@ -6,7 +6,7 @@
   "data": { "url": "data/OutvsIn_exp.csv", "format": { "type": "csv" } },
   "params": [
     {
-      "name": "selectedCountry",
+      "name": "country",
       "value": "Albania",
       "bind": {
         "input": "select",
@@ -240,7 +240,7 @@
   ],
   "transform": [
     {
-      "filter": { "field": "Country", "equal": { "expr": "selectedCountry" } }
+      "filter": { "field": "Country", "equal": { "expr": "country" } }
     },
     { "fold": ["Inbound", "Outbound"], "as": ["key", "values"] }
   ],
