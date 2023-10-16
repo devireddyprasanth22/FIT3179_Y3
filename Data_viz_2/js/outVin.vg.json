@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
-  "height": 500,
+  "width": 325,
+  "height": 300,
   "title": "Outbound vs Inbound expenditure (2010-2021)",
   "data": { "url": "data/OutvsIn_exp.csv", "format": { "type": "csv" } },
   "params": [

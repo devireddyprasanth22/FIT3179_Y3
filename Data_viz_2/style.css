@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-direction: row; /* Stack content horizontally */
   align-items: center;
-  padding: 0 50px;
+  padding: 0 8%;
   border: 1px solid #000;
 }
 
@@ -37,10 +37,9 @@ body {
 .visz {
   flex: 1; /* Distribute available space evenly among the visualizations */
   /* Ensure that visualizations fit within their parent divs */
-  padding: 20px;
-  background-color: #e6e6e6;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  max-width: calc(50% - 20px); /* Adjust for padding and spacing */
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: max-content;
 }
 
 #vis,

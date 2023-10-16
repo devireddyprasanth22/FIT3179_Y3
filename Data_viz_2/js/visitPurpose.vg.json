@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 350,
+  "width": 325,
   "height": 300,
   "title": "Purpose of visit for each country (2010-2021)",
   "data": {

@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 400,
+  "width": 350,
   "height": 450,
   "title": "Inbound tourism for each country (2010-2021)",
   "data": {
@@ -35,13 +35,6 @@
       "mark": { "type": "geoshape", "fill": "lightgray", "stroke": "white" },
       "encoding": { "tooltip": { "field": "note" } }
     },
-    {
-      "data": {
-        "url": "js/WorldMapWithGraticules.topojson",
-        "format": { "type": "topojson", "feature": "ne_110m_graticules_30" }
-      },
-      "mark": { "type": "geoshape", "fill": null, "stroke": "lightgray" }
-    },
 
     {
       "transform": [
@@ -70,13 +63,13 @@
         },
         {
           "calculate": "Year_above === 2010 ? datum['Total arrivals(in thousands) 2010'] : Year_above === 2011 ? datum['Total arrivals(in thousands) 2011'] : Year_above === 2012 ? datum['Total arrivals(in thousands) 2012'] : Year_above === 2013 ? datum['Total arrivals(in thousands) 2013'] : Year_above === 2014 ? datum['Total arrivals(in thousands) 2014'] : Year_above === 2015 ? datum['Total arrivals(in thousands) 2015'] : Year_above === 2016 ? datum['Total arrivals(in thousands) 2016'] : Year_above === 2017 ? datum['Total arrivals(in thousands) 2017'] : Year_above === 2018 ? datum['Total arrivals(in thousands) 2018'] : Year_above === 2019 ? datum['Total arrivals(in thousands) 2019'] : Year_above === 2020 ? datum['Total arrivals(in thousands) 2020'] : datum['Total arrivals(in thousands) 2021']",
-          "as": "Total arrivals in thousands"
+          "as": "Total arrivals (thousands)"
         }
       ],
       "mark": { "type": "geoshape", "stroke": "white" },
       "encoding": {
         "color": {
-          "field": "Total arrivals in thousands",
+          "field": "Total arrivals (thousands)",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
@@ -91,12 +84,19 @@
             "title": "Countries"
           },
           {
-            "field": "Total arrivals in thousands",
+            "field": "Total arrivals (thousands)",
             "type": "quantitative",
-            "title": "Total arrivals in thousands"
+            "title": "Total arrivals (thousands)"
           }
         ]
       }
+    },
+    {
+      "data": {
+        "url": "js/WorldMapWithGraticules.topojson",
+        "format": { "type": "topojson", "feature": "ne_110m_graticules_30" }
+      },
+      "mark": { "type": "geoshape", "fill": null, "stroke": "lightgray" }
     }
   ]
 }
