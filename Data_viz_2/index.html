@@ -55,28 +55,36 @@
                             <div id="vis2"></div>
                         </div>
                     </div>
-                    <div>
-                        <div class="mdl-grid">
-                            <div class="mdl-cell mdl-cell--6-col">
-                                <div class="text-content">
-                                    <h4>Tourism and Travel metrics</h4>
-                                    <p style=" font-size: medium;">There are several reasons why
-                                        people
-                                        might want to visit a country but they can be categorised under either
-                                        <span style="color: #F58518; font-weight: bold;">Personal</span> or <span
-                                            style="color: #4C78A8; font-weight: bold;">Business</span>. The
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <h4>Tourism and Travel metrics</h4>
+                            <div class="text-content">
+                                <p style=" font-size: medium;">Tourism and travel metrics are essential for a
+                                    multitude of reasons, serving as a
+                                    valuable compass for the global tourism industry. These metrics provide
+                                    invaluable insights into the economic impact of tourism.
+                                    They also help in identifying target markets and understanding traveler
+                                    preferences</p>
+                                <p style=" font-size: medium;">There are several reasons why
+                                    people
+                                    might want to visit a country but they can be categorised under either
+                                    <span style="color: #F58518; font-weight: bold;">Personal</span> or <span
+                                        style="color: #4C78A8; font-weight: bold;">Business</span>. <span
+                                        style="color: red; font-weight: bolder;">The
                                         visualisation on the right is
-                                        able to offer essential insights in the motivations behind international travel,
-                                        providing valusable information to travellers and relevant stakeholders. It can
-                                        be noted that for most countries, the purpose of visit tends to be for personal
-                                        reasons
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="mdl-cell mdl-cell--6-col visz">
-                                <div id="vis1"></div>
+                                        able to offer essential insights in the motivations behind international
+                                        travel,
+                                        providing valusable information to travellers and relevant
+                                        stakeholders.</span> It can
+                                    be noted that for most countries, the purpose of visit tends to be for personal
+                                    reasons
+                                </p>
                             </div>
                         </div>
+                        <div class="mdl-cell mdl-cell--6-col visz" style="margin-top: 5%;">
+                            <div id="vis1"></div>
+                        </div>
+
                         <div class="mdl-grid">
                             <div class="mdl-cell mdl-cell--6-col visz">
                                 <div id="vis3"></div>
@@ -87,32 +95,47 @@
                                         per sector within the tourism industry, including Accommodation, Food and
                                         Beverage (F&B), Passenger Transport, Travel Agencies, and other related
                                         segments, is a vital metric reflecting the workforce distribution within this
-                                        dynamic sector. These statistics reveal the complex web of employment
+                                        dynamic sector. <span style="color: red; font-weight: bolder;"> This
+                                            visualisation, showing the total employees by tourism industry can be seen
+                                            on the left. </span>
+                                    </p>
+                                    <p style="text-align: right; font-size: medium;">These statistics reveal the complex
+                                        web of employment
                                         opportunities created by the tourism industry, spanning from hotels and
                                         restaurants to transportation services and travel agencies. It highlights the
                                         interconnected
                                         nature of the tourism ecosystem, where the success and sustainability of one
-                                        sector often depend on the support and collaboration of others.
-                                    </p>
+                                        sector often depend on the support and collaboration of others.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="visualization-group">
+                        <h3 style="text-align: center;">Tourism GDP as a proportion of GDP</h3>
+                        <p style="text-align: center; font-size: medium;">he visualization of Tourism direct GDP as
+                            a
+                            proportion of total GDP serves as a crucial metric
+                            for understanding the economic significance of the tourism industry within a given
+                            country. It
+                            offers a clear insight into the role that tourism plays in the overall economic
+                            landscape,
+                            indicating the extent to which a nation's GDP is dependent on the tourism sector.</p>
+                        <p style="text-align: center; font-size: medium;">A high
+                            proportion suggests that tourism is a major driver of the economy, potentially leading
+                            to
+                            economic vulnerabilities during tourism downturns or disruptions. Conversely, a lower
+                            proportion
+                            may indicate a more diversified economy less reliant on tourism. </p>
+                    </div>
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--6-col visz">
+                            <div id="vis4"></div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col visz">
+                            <div id="vis5"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="visualization-group">
-                    <h3 style="text-align: center;">Tourism GDP as a proportion of GDP</h3>
-                    <p style="text-align: center; font-size: medium;">he visualization of Tourism direct GDP as a
-                        proportion of total GDP serves as a crucial metric
-                        for understanding the economic significance of the tourism industry within a given country. It
-                        offers a clear insight into the role that tourism plays in the overall economic landscape,
-                        indicating the extent to which a nation's GDP is dependent on the tourism sector.</p>
-                    <p style="text-align: center; font-size: medium;">A high
-                        proportion suggests that tourism is a major driver of the economy, potentially leading to
-                        economic vulnerabilities during tourism downturns or disruptions. Conversely, a lower proportion
-                        may indicate a more diversified economy less reliant on tourism. </p>
-                    <div id="vis4"></div>
-                </div>
-                <div id="vis5"></div>
             </div>
         </main>
     </div>
@@ -121,32 +144,32 @@
     <script type="text/javascript">
 
         var spec = "js/inboundTourism.vg.json";
-        vegaEmbed('#vis', spec).then(function (result) {
+        vegaEmbed('#vis', spec, { "actions": false }).then(function (result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
         var spec1 = "js/visitPurpose.vg.json";
-        vegaEmbed('#vis1', spec1).then(function (result) {
+        vegaEmbed('#vis1', spec1, { "actions": false }).then(function (result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
         var spec2 = "js/outboundTourism.vg.json";
-        vegaEmbed('#vis2', spec2).then(function (result) {
+        vegaEmbed('#vis2', spec2, { "actions": false }).then(function (result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
         var spec3 = "js/tourism_employees.vg.json";
-        vegaEmbed('#vis3', spec3).then(function (result) {
+        vegaEmbed('#vis3', spec3, { "actions": false }).then(function (result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
         var spec4 = "js/tourismGDP.vg.json";
-        vegaEmbed('#vis4', spec4).then(function (result) {
+        vegaEmbed('#vis4', spec4, { "actions": false }).then(function (result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
 
         var spec5 = "js/outVin.vg.json";
-        vegaEmbed('#vis5', spec5).then(function (result) {
+        vegaEmbed('#vis5', spec5, { "actions": false }).then(function (result) {
             // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
     </script>

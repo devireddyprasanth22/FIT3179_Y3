@@ -2,7 +2,7 @@
 
 /* Set a background color for the body */
 body {
-  background-color: #f0f0f088;
+  background-color: #ededede5;
   font-family: Arial, sans-serif;
   margin: 10; /* Remove default margins to avoid unexpected scrolling */
 }
@@ -27,34 +27,30 @@ body {
 }
 
 /* Style the visualization container */
-.visualization-cont {
+.visualization-group {
   display: flex;
   flex-wrap: wrap; /* Allow visualizations to wrap to the next line */
   justify-content: center;
   gap: 20px; /* Spacing between visualizations */
-  max-width: 100%; /* Ensure visualizations don't overflow the viewport */
-  margin-top: 80px; /* Add margin to create space between header and visualizations */
 }
 
 .visz {
   flex: 1; /* Distribute available space evenly among the visualizations */
-  max-width: 50%; /* Ensure that visualizations fit within their parent divs */
+  /* Ensure that visualizations fit within their parent divs */
   padding: 20px;
   background-color: #e6e6e6;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  max-width: calc(50% - 20px); /* Adjust for padding and spacing */
 }
 
 #vis,
 #vis1,
 #vis2,
-#vis3 {
+#vis3,
+#vis4,
+#vis5 {
   /* Distribute available space evenly among the visualizations */
   max-width: 100%; /* Ensure vis4 doesn't overflow the viewport */
-}
-
-#vis4 {
-  max-width: 100%;
-  padding: 20px;
 }
 
 .in_high {
@@ -63,7 +59,7 @@ body {
 }
 
 .out_high {
-  color: #2f78b3;
+  color: #316d95;
   font-weight: bold;
 }
 

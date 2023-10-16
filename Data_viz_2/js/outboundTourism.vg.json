@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 400,
-  "height": 500,
+  "height": 450,
   "title": "Outbound tourism for each country (2010-2021)",
   "data": {
     "url": "js/ne_110m.json",
@@ -81,7 +81,7 @@
           "scale": {
             "type": "threshold",
             "domain": [5000, 10000, 15000, 20000, 25000],
-            "range": "diverging"
+            "scheme": "tealblues"
           }
         },
         "tooltip": [

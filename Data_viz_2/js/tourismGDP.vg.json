@@ -82,8 +82,8 @@
           "type": "quantitative",
           "scale": {
             "type": "threshold",
-            "domain": [0, 2, 4, 6, 8, 10],
-            "range": "diverging"
+            "domain": [2, 4, 6, 8, 10],
+            "scheme": "purples"
           }
         },
         "tooltip": [
