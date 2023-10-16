@@ -3,6 +3,7 @@
   "width": 350,
   "height": 450,
   "title": "Tourism GDP as proportion of total GDP (2008-2021)",
+  "config": { "title": { "fontSize": 16 } },
   "data": {
     "url": "js/ne_110m.json",
     "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
@@ -65,18 +66,18 @@
         },
         {
           "calculate": "Year_above === 2008 ? datum['2008'] : Year_above === 2009 ? datum['2009'] : Year_above === 2010 ? datum['2010'] : Year_above === 2011 ? datum['2011'] : Year_above === 2012 ? datum['2012'] : Year_above === 2013 ? datum['2013'] : Year_above === 2014 ? datum['2014'] : Year_above === 2015 ? datum['2015'] : Year_above === 2016 ? datum['2016'] : Year_above === 2017 ? datum['2017'] : Year_above === 2018 ? datum['2018'] : Year_above === 2019 ? datum['2019']: Year_above === 2020 ? datum['2020']: datum['2021']",
-          "as": "Tourism GDP as % of total GDP"
+          "as": "Tourism GDP as % of GDP"
         }
       ],
       "mark": { "type": "geoshape", "stroke": "white" },
       "encoding": {
         "color": {
-          "field": "Tourism GDP as % of total GDP",
+          "field": "Tourism GDP as % of GDP",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
             "domain": [2, 4, 6, 8, 10],
-            "scheme": "purples"
+            "scheme": "greens"
           }
         },
         "tooltip": [
@@ -86,7 +87,7 @@
             "title": "Country"
           },
           {
-            "field": "Tourism GDP as % of total GDP",
+            "field": "Tourism GDP as % of GDP",
             "type": "quantitative",
             "title": "Tourism GPD %"
           }

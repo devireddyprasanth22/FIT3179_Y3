@@ -3,6 +3,7 @@
   "width": 350,
   "height": 300,
   "title": "Tourist employees by tourism industry (2010-2021)",
+  "config": { "title": { "fontSize": 16 } },
   "data": {
     "url": "data/tourism_employees.csv",
     "format": {

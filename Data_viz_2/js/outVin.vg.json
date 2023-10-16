@@ -3,6 +3,7 @@
   "width": 325,
   "height": 300,
   "title": "Outbound vs Inbound expenditure (2010-2021)",
+  "config": { "title": { "fontSize": 16 } },
   "data": { "url": "data/OutvsIn_exp.csv", "format": { "type": "csv" } },
   "params": [
     {
